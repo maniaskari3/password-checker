@@ -13,6 +13,8 @@ A simple Python program that checks whether a password meets basic security requ
 * Checks whether the password has at least 8 characters.
 * Checks whether the password contains at least one number.
 * Checks whether the password contains at least one uppercase letter.
+* Checks whether the password contains at least one lowercase letter.
+* Checks whether the password contains at least one special character.
 * Displays messages for missing requirements.
 
 
@@ -21,7 +23,7 @@ A simple Python program that checks whether a password meets basic security requ
 
 
 
-Put your password: Abcdefg1
+Put your password: Abcdefg1!
 
 Password is valid
 
@@ -40,6 +42,16 @@ This project was created to practice fundamental Python concepts, including:
 * For loops
 * If statements
 * String operations
+* Conditional expressions
+
+
+
+### Version History
+
+
+
+* v1.0.0 – Basic password validation.
+* v1.1.0 – Added lowercase letter and special character checks, and improved password length feedback.
 
 
 
@@ -47,17 +59,13 @@ This project was created to practice fundamental Python concepts, including:
 
 
 
-This project will be expanded as I learn more Python concepts.
-
-
-
 Possible future improvements:
 
 
 
-* Check for lowercase letters.
-* Check for special characters.
 * Add password strength levels.
+* Support repeated password checks.
+* Improve input validation.
 
 
 
